@@ -2,7 +2,14 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/TestLWC": [
+                "TestLWC/TestLWC.js"
+            ],
+            "c/testLWC": [
+                "testLWC/testLWC.js"
+            ]
+        }
     },
     "include": [
         "**/*",
